@@ -1,19 +1,4 @@
 document.addEventListener('DOMContentLoaded', (event) => {
-
-    document.addEventListener('DOMContentLoaded', (event) => {
-        document.getElementById('downloadResume').addEventListener('click', function() {
-            const link = document.createElement('a');
-            link.href = 'MyResume.pdf'; // Update with the actual path to your resume file
-            link.download = 'MyResume.pdf';
-            link.click();
-        });
-
-        document.getElementById('github').addEventListener('click', function() {
-            window.open('https://github.com/Rabia2417', '_blank');
-        });
-    });
-
-
     const skillsLink = document.getElementById('skillsLink');
     const educationLink = document.getElementById('educationLink');
     const achievementsLink = document.getElementById('achievementsLink');
