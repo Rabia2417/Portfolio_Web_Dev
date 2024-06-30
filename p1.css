@@ -366,3 +366,65 @@ h3 {
     text-align: center;
     padding: 10px;
 }
+
+/* Styles for smaller screens */
+@media (max-width: 768px) {
+    header nav .right ul {
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: small;
+    }
+
+    .section1_home, .section2_about {
+        flex-direction: column;
+    }
+
+    .section1_home img {
+        max-width: 400px;
+    }
+
+    .rightsection1 {
+        margin: 20px;
+        line-height: 2;
+    }
+    
+    .rightsection1 a {
+        font-size: medium;
+    }
+
+    .services-container, .projects-container {
+        flex-direction: column;
+    }
+
+    .section5_contact {
+        flex-direction: column;
+    }
+
+    .project {
+        width: 100%;
+    }
+
+    /* Adjust sub-navigation for small screens */
+    .sub-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sub-nav ul li {
+        margin: 0 15px;;
+    }
+
+    /* Reduce font size */
+    body {
+        font-size: 0.8rem;
+    }
+
+    .section1_home .rightsection1 {
+        font-size: 0.9rem;
+    }
+
+    /* Hide uniform.png on small screens */
+    .rightsection2 img {
+        display: none;
+    }
+}
